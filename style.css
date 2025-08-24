@@ -31,19 +31,18 @@ header > h1 {
 }
 
 header > p {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-top: 0px;
     margin-bottom: 0px;
 }
 
 header > p > a {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: white;
     text-decoration: none;
     font-weight: 600;
 }
 
-header > p > a:hover {
+a:hover {
     text-decoration: underline;
 }
 
@@ -89,6 +88,26 @@ header > p > a:hover {
 #img2 {
     background: black url(imagens/background002.jpg) center center / cover no-repeat fixed;
 }
+
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+footer > p {
+    padding: 0px;
+    margin: 0px;
+}
+
+footer > p > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
 
 
 
